@@ -1,0 +1,41 @@
+form{
+    background-color: darkgrey;
+    width: 350px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    border:2px solid black ;
+    border-radius: 5px;
+    background: linear-gradient(360deg,rgb(134, 134, 238), rgb(200, 199, 199));
+}
+
+textarea{
+    width: 80%;
+    height: 50px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    margin-block: 10px;
+}
+
+.TodoForm-buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TodoForm-button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.TodoForm-button--add{
+    background-color: rgb(176, 196, 222);   
+}
+
+.TodoForm-button--cancel{
+    background-color: lightcoral;
+}
